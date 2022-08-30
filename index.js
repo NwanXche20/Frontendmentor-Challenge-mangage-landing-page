@@ -17,7 +17,6 @@ navToggle.addEventListener("click", () => {
     closeModal.classList.remove("hidden");
   }
 
-  // nav.style.transform = "translateX(easeIn)";
   nav.classList.toggle("nav--visible");
 });
 
@@ -95,11 +94,3 @@ dots.addEventListener("click", function (e) {
 
 arrowRight.addEventListener("click", nextSlide);
 arrowLeft.addEventListener("click", prevSlide);
-
-// dots.addEventListener("touch", function (e) {
-//   if (e.target.classList.contains("dot")) {
-//     const { slide } = e.target.dataset;
-//     moveToSlide(slide);
-//     activeDot(slide);
-//   }
-// });
