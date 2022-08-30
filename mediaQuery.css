@@ -1,0 +1,160 @@
+@media (min-width: 765px) {
+  p {
+    font-size: 1rem;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row--reverse {
+    flex-direction: row-reverse;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    visibility: visible;
+    position: relative;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    filter: none;
+    align-self: center;
+  }
+
+  .nav__list {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+
+  .nav__list--primary {
+    margin: 0 auto;
+  }
+
+  .nav__list--secondary {
+    visibility: visible;
+  }
+
+  .nav__item {
+    margin: 0;
+  }
+
+  .nav__item + .nav__item {
+    margin-left: 1.5em;
+  }
+
+  .nav__link:hover {
+    opacity: 0.4;
+  }
+
+  .hero {
+    margin: 3rem auto 0;
+    padding: 0;
+  }
+
+  .hero__text {
+    width: 100%;
+    text-align: left;
+    align-self: center;
+  }
+
+  .hero__image {
+    width: 100%;
+    margin-left: 5rem;
+  }
+
+  .hero__title {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero__subtitle {
+    margin-bottom: 2.5rem;
+  }
+
+  .main {
+    margin: 2rem 0 0;
+  }
+
+  .content__description {
+    text-align: left;
+    width: 100%;
+  }
+
+  .content__lists {
+    width: 100%;
+    margin-left: 5rem;
+  }
+
+  .content__list--heading {
+    background: transparent;
+    margin-bottom: 1rem;
+  }
+
+  .slider {
+    width: 80%;
+  }
+
+  .slider__arrow {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .cta__text {
+    margin: 0;
+  }
+
+  .footer {
+    padding: 2em 0;
+  }
+
+  .footer > .container {
+    align-items: flex-start;
+  }
+
+  .footer__item {
+    margin: 0;
+  }
+
+  .footer__item {
+    margin-left: 1rem;
+  }
+
+  .footer__link:hover,
+  .socials__image:hover {
+    color: var(--bright-orange);
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+
+  .form {
+    margin: 0;
+  }
+
+  .btn {
+    padding: 1em 2em;
+    border-radius: 100px;
+  }
+
+  .btn:hover {
+    opacity: 0.9;
+  }
+
+  .input {
+    width: 60%;
+  }
+
+  .input__btn {
+    height: 2rem;
+    padding: 0.5em 1.5em;
+  }
+}
